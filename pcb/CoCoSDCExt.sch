@@ -11151,7 +11151,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="C4.2" library="rcl" deviceset="C-US" device="C0402" value="10u"/>
+<part name="C4.2" library="rcl" deviceset="C-US" device="C0805" value="10u"/>
 <part name="C7" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B"/>
 <part name="C17" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B"/>
 <part name="C18" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B"/>
