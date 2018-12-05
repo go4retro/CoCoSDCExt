@@ -12498,10 +12498,10 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <instance part="C18" gate="G$1" x="134.62" y="66.04" rot="R90"/>
 <instance part="C19" gate="G$1" x="134.62" y="58.42" rot="R90"/>
 <instance part="C20" gate="G$1" x="220.98" y="68.58" rot="R90"/>
-<instance part="IC14" gate="A" x="203.2" y="182.88"/>
-<instance part="IC14" gate="B" x="203.2" y="198.12"/>
-<instance part="IC14" gate="C" x="203.2" y="152.4"/>
-<instance part="IC14" gate="D" x="203.2" y="167.64"/>
+<instance part="IC14" gate="C" x="203.2" y="182.88"/>
+<instance part="IC14" gate="D" x="203.2" y="198.12"/>
+<instance part="IC14" gate="B" x="203.2" y="152.4"/>
+<instance part="IC14" gate="A" x="203.2" y="167.64"/>
 <instance part="IC15" gate="A" x="185.42" y="78.74"/>
 <instance part="IC15" gate="B" x="205.74" y="68.58"/>
 <instance part="IC14" gate="G$1" x="60.96" y="20.32"/>
@@ -12833,7 +12833,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="C4.6" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="154.94" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
 <junction x="175.26" y="182.88"/>
-<pinref part="IC14" gate="B" pin="+IN"/>
+<pinref part="IC14" gate="D" pin="+IN"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -12846,7 +12846,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="C4.5" gate="G$1" pin="1"/>
 <wire x1="167.64" y1="154.94" x2="167.64" y2="177.8" width="0.1524" layer="91"/>
 <junction x="167.64" y="177.8"/>
-<pinref part="IC14" gate="A" pin="+IN"/>
+<pinref part="IC14" gate="C" pin="+IN"/>
 </segment>
 </net>
 <net name="YMF_CH_1" class="0">
@@ -12859,8 +12859,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="218.44" y1="182.88" x2="215.9" y2="182.88" width="0.1524" layer="91"/>
 <junction x="215.9" y="182.88"/>
 <label x="218.44" y="182.88" size="1.27" layer="95" xref="yes"/>
-<pinref part="IC14" gate="A" pin="-IN"/>
-<pinref part="IC14" gate="A" pin="OUT"/>
+<pinref part="IC14" gate="C" pin="-IN"/>
+<pinref part="IC14" gate="C" pin="OUT"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -12886,8 +12886,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="193.04" y1="160.02" x2="215.9" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="160.02" x2="215.9" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="167.64" x2="210.82" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="D" pin="-IN"/>
-<pinref part="IC14" gate="D" pin="OUT"/>
+<pinref part="IC14" gate="A" pin="-IN"/>
+<pinref part="IC14" gate="A" pin="OUT"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -12900,7 +12900,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <junction x="160.02" y="167.64"/>
 <wire x1="160.02" y1="167.64" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="167.64" x2="190.5" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="D" pin="+IN"/>
+<pinref part="IC14" gate="A" pin="+IN"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -12915,8 +12915,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="190.5" y1="162.56" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="149.86" x2="193.04" y2="149.86" width="0.1524" layer="91"/>
 <junction x="193.04" y="149.86"/>
-<pinref part="IC14" gate="C" pin="-IN"/>
-<pinref part="IC14" gate="C" pin="OUT"/>
+<pinref part="IC14" gate="B" pin="-IN"/>
+<pinref part="IC14" gate="B" pin="OUT"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -12929,7 +12929,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="152.4" y1="154.94" x2="152.4" y2="157.48" width="0.1524" layer="91"/>
 <junction x="152.4" y="157.48"/>
 <pinref part="C4.2" gate="G$1" pin="1"/>
-<pinref part="IC14" gate="C" pin="+IN"/>
+<pinref part="IC14" gate="B" pin="+IN"/>
 </segment>
 </net>
 <net name="YMF_CH_0" class="0">
@@ -12942,8 +12942,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="215.9" y1="198.12" x2="218.44" y2="198.12" width="0.1524" layer="91"/>
 <junction x="215.9" y="198.12"/>
 <label x="218.44" y="198.12" size="1.27" layer="95" xref="yes"/>
-<pinref part="IC14" gate="B" pin="-IN"/>
-<pinref part="IC14" gate="B" pin="OUT"/>
+<pinref part="IC14" gate="D" pin="-IN"/>
+<pinref part="IC14" gate="D" pin="OUT"/>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
