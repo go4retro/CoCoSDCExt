@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -11509,6 +11509,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="IC3" library="memory-alliance" deviceset="AS6C4008" device="SIN"/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="P+6" library="supply1" deviceset="+5V" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11572,7 +11575,11 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <instance part="P+4" gate="1" x="119.38" y="-22.86"/>
 <instance part="GND9" gate="1" x="116.84" y="-53.34"/>
 <instance part="GND10" gate="1" x="121.92" y="-53.34"/>
-<instance part="IC3" gate="A" x="231.14" y="162.56"/>
+<instance part="IC3" gate="A" x="200.66" y="22.86"/>
+<instance part="GND12" gate="1" x="185.42" y="-15.24"/>
+<instance part="IC3" gate="P" x="228.6" y="-38.1"/>
+<instance part="P+6" gate="1" x="228.6" y="-22.86"/>
+<instance part="GND13" gate="1" x="228.6" y="-53.34"/>
 </instances>
 <busses>
 <bus name="A[0..15]">
@@ -11583,12 +11590,16 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="99.06" y1="48.26" x2="99.06" y2="15.24" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="474.98" y1="182.88" x2="474.98" y2="35.56" width="0.762" layer="92"/>
-<wire x1="474.98" y1="35.56" x2="431.8" y2="35.56" width="0.762" layer="92"/>
-<wire x1="474.98" y1="182.88" x2="431.8" y2="182.88" width="0.762" layer="92"/>
+<wire x1="93.98" y1="203.2" x2="93.98" y2="165.1" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="203.2" x2="93.98" y2="165.1" width="0.762" layer="92"/>
+<wire x1="162.56" y1="48.26" x2="162.56" y2="15.24" width="0.762" layer="92"/>
+</segment>
+<segment>
+<wire x1="254" y1="187.96" x2="254" y2="154.94" width="0.762" layer="92"/>
+</segment>
+<segment>
+<wire x1="421.64" y1="-10.16" x2="424.18" y2="-10.16" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="D[0..7]">
@@ -11599,10 +11610,13 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="144.78" y1="48.26" x2="144.78" y2="30.48" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="360.68" y1="35.56" x2="406.4" y2="35.56" width="0.762" layer="92"/>
+<wire x1="149.86" y1="203.2" x2="149.86" y2="185.42" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="203.2" x2="149.86" y2="185.42" width="0.762" layer="92"/>
+<wire x1="241.3" y1="48.26" x2="241.3" y2="30.48" width="0.762" layer="92"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="127" x2="279.4" y2="81.28" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="BA[14..18]">
@@ -11610,12 +11624,15 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="99.06" y1="12.7" x2="99.06" y2="2.54" width="0.762" layer="92"/>
 </segment>
 <segment>
-<wire x1="469.9" y1="139.7" x2="469.9" y2="78.74" width="0.762" layer="92"/>
+<wire x1="162.56" y1="12.7" x2="162.56" y2="2.54" width="0.762" layer="92"/>
+</segment>
+<segment>
+<wire x1="254" y1="152.4" x2="254" y2="142.24" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="BD[0..7]">
+<bus name="DB[0..7],AB[0..18],!RCE,!FCE,!WE">
 <segment>
-<wire x1="314.96" y1="144.78" x2="314.96" y2="83.82" width="0.762" layer="92"/>
+<wire x1="497.84" y1="93.98" x2="497.84" y2="76.2" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -11634,16 +11651,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="A0"/>
 </segment>
 <segment>
-<wire x1="431.8" y1="35.56" x2="429.26" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="429.26" y1="38.1" x2="429.26" y2="45.72" width="0.1524" layer="91"/>
-<label x="429.26" y="38.1" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC4"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="A0"/>
 <wire x1="93.98" y1="203.2" x2="96.52" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="205.74" x2="106.68" y2="205.74" width="0.1524" layer="91"/>
 <label x="96.52" y="205.74" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="48.26" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
+<label x="165.1" y="50.8" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A7"/>
+<wire x1="175.26" y1="50.8" x2="187.96" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="187.96" x2="256.54" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="190.5" x2="266.7" y2="190.5" width="0.1524" layer="91"/>
+<label x="256.54" y="190.5" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC14-I/O/GTS1"/>
+<wire x1="266.7" y1="190.5" x2="327.66" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -11660,16 +11685,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="A1"/>
 </segment>
 <segment>
-<wire x1="474.98" y1="78.74" x2="472.44" y2="81.28" width="0.1524" layer="91"/>
-<label x="467.36" y="81.28" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC14"/>
-<wire x1="472.44" y1="81.28" x2="454.66" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="A1"/>
 <wire x1="93.98" y1="200.66" x2="96.52" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="203.2" x2="106.68" y2="203.2" width="0.1524" layer="91"/>
 <label x="96.52" y="203.2" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="45.72" x2="165.1" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="48.26" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
+<label x="165.1" y="48.26" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A6"/>
+<wire x1="175.26" y1="48.26" x2="187.96" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="185.42" x2="256.54" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="187.96" x2="266.7" y2="187.96" width="0.1524" layer="91"/>
+<label x="256.54" y="187.96" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC10"/>
+<wire x1="266.7" y1="187.96" x2="327.66" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -11686,16 +11719,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="A2"/>
 </segment>
 <segment>
-<wire x1="474.98" y1="93.98" x2="472.44" y2="96.52" width="0.1524" layer="91"/>
-<label x="467.36" y="96.52" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC17"/>
-<wire x1="472.44" y1="96.52" x2="454.66" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="A2"/>
 <wire x1="93.98" y1="198.12" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="200.66" x2="106.68" y2="200.66" width="0.1524" layer="91"/>
 <label x="96.52" y="200.66" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="43.18" x2="165.1" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="45.72" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
+<label x="165.1" y="45.72" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A5"/>
+<wire x1="175.26" y1="45.72" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="182.88" x2="256.54" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="185.42" x2="266.7" y2="185.42" width="0.1524" layer="91"/>
+<label x="256.54" y="185.42" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC9-I/O/GSR"/>
+<wire x1="266.7" y1="185.42" x2="353.06" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -11712,16 +11753,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="A3"/>
 </segment>
 <segment>
-<wire x1="474.98" y1="104.14" x2="472.44" y2="106.68" width="0.1524" layer="91"/>
-<label x="467.36" y="106.68" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC12"/>
-<wire x1="472.44" y1="106.68" x2="454.66" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="A3"/>
 <wire x1="93.98" y1="195.58" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="198.12" x2="106.68" y2="198.12" width="0.1524" layer="91"/>
 <label x="96.52" y="198.12" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="40.64" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="43.18" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
+<label x="165.1" y="43.18" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A4"/>
+<wire x1="175.26" y1="43.18" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="180.34" x2="256.54" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="182.88" x2="266.7" y2="182.88" width="0.1524" layer="91"/>
+<label x="256.54" y="182.88" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC8"/>
+<wire x1="266.7" y1="182.88" x2="358.14" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -11738,16 +11787,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="A4"/>
 </segment>
 <segment>
-<wire x1="474.98" y1="119.38" x2="472.44" y2="121.92" width="0.1524" layer="91"/>
-<label x="467.36" y="121.92" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC2"/>
-<wire x1="472.44" y1="121.92" x2="454.66" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="A4"/>
 <wire x1="93.98" y1="193.04" x2="96.52" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="195.58" x2="106.68" y2="195.58" width="0.1524" layer="91"/>
 <label x="96.52" y="195.58" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="38.1" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="40.64" x2="175.26" y2="40.64" width="0.1524" layer="91"/>
+<label x="165.1" y="40.64" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A3"/>
+<wire x1="175.26" y1="40.64" x2="187.96" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="177.8" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="180.34" x2="266.7" y2="180.34" width="0.1524" layer="91"/>
+<label x="256.54" y="180.34" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC6"/>
+<wire x1="266.7" y1="180.34" x2="363.22" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -11764,16 +11821,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="A5"/>
 </segment>
 <segment>
-<wire x1="474.98" y1="129.54" x2="472.44" y2="132.08" width="0.1524" layer="91"/>
-<label x="467.36" y="132.08" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC8"/>
-<wire x1="472.44" y1="132.08" x2="454.66" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="A5"/>
 <wire x1="93.98" y1="190.5" x2="96.52" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="193.04" x2="106.68" y2="193.04" width="0.1524" layer="91"/>
 <label x="96.52" y="193.04" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="35.56" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="38.1" x2="175.26" y2="38.1" width="0.1524" layer="91"/>
+<label x="165.1" y="38.1" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A2"/>
+<wire x1="175.26" y1="38.1" x2="187.96" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="175.26" x2="256.54" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="177.8" x2="266.7" y2="177.8" width="0.1524" layer="91"/>
+<label x="256.54" y="177.8" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC5"/>
+<wire x1="266.7" y1="177.8" x2="368.3" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A6" class="0">
@@ -11795,6 +11860,20 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="96.52" y1="190.5" x2="106.68" y2="190.5" width="0.1524" layer="91"/>
 <label x="96.52" y="190.5" size="1.27" layer="95"/>
 </segment>
+<segment>
+<wire x1="162.56" y1="33.02" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="35.56" x2="175.26" y2="35.56" width="0.1524" layer="91"/>
+<label x="165.1" y="35.56" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A1"/>
+<wire x1="175.26" y1="35.56" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="172.72" x2="256.54" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="175.26" x2="266.7" y2="175.26" width="0.1524" layer="91"/>
+<label x="256.54" y="175.26" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC2"/>
+<wire x1="266.7" y1="175.26" x2="373.38" y2="172.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="A7" class="0">
 <segment>
@@ -11814,6 +11893,19 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="93.98" y1="185.42" x2="96.52" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="187.96" x2="106.68" y2="187.96" width="0.1524" layer="91"/>
 <label x="96.52" y="187.96" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="30.48" x2="165.1" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="33.02" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
+<label x="165.1" y="33.02" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A0"/>
+<wire x1="175.26" y1="33.02" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="170.18" x2="256.54" y2="172.72" width="0.1524" layer="91"/>
+<label x="256.54" y="172.72" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC3"/>
+<wire x1="256.54" y1="172.72" x2="383.54" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A8" class="0">
@@ -11835,6 +11927,19 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="96.52" y1="185.42" x2="106.68" y2="185.42" width="0.1524" layer="91"/>
 <label x="96.52" y="185.42" size="1.27" layer="95"/>
 </segment>
+<segment>
+<wire x1="162.56" y1="27.94" x2="165.1" y2="30.48" width="0.1524" layer="91"/>
+<label x="165.1" y="30.48" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A8"/>
+<wire x1="165.1" y1="30.48" x2="187.96" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="167.64" x2="256.54" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="170.18" x2="266.7" y2="170.18" width="0.1524" layer="91"/>
+<label x="256.54" y="170.18" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC10"/>
+<wire x1="266.7" y1="170.18" x2="358.14" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="A9" class="0">
 <segment>
@@ -11854,6 +11959,20 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="93.98" y1="180.34" x2="96.52" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="182.88" x2="106.68" y2="182.88" width="0.1524" layer="91"/>
 <label x="96.52" y="182.88" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="25.4" x2="165.1" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="27.94" x2="175.26" y2="27.94" width="0.1524" layer="91"/>
+<label x="165.1" y="27.94" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A13"/>
+<wire x1="175.26" y1="27.94" x2="187.96" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="165.1" x2="256.54" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="167.64" x2="266.7" y2="167.64" width="0.1524" layer="91"/>
+<label x="256.54" y="167.64" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC12"/>
+<wire x1="266.7" y1="167.64" x2="414.02" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A10" class="0">
@@ -11875,6 +11994,20 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="96.52" y1="180.34" x2="106.68" y2="180.34" width="0.1524" layer="91"/>
 <label x="96.52" y="180.34" size="1.27" layer="95"/>
 </segment>
+<segment>
+<wire x1="162.56" y1="22.86" x2="165.1" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="25.4" x2="175.26" y2="25.4" width="0.1524" layer="91"/>
+<label x="165.1" y="25.4" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A15"/>
+<wire x1="175.26" y1="25.4" x2="187.96" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="162.56" x2="256.54" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="165.1" x2="266.7" y2="165.1" width="0.1524" layer="91"/>
+<label x="256.54" y="165.1" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC6"/>
+<wire x1="266.7" y1="165.1" x2="429.26" y2="172.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="A11" class="0">
 <segment>
@@ -11894,6 +12027,20 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="93.98" y1="175.26" x2="96.52" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="177.8" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
 <label x="96.52" y="177.8" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="20.32" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="22.86" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
+<label x="165.1" y="22.86" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A17"/>
+<wire x1="175.26" y1="22.86" x2="187.96" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="160.02" x2="256.54" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="162.56" x2="266.7" y2="162.56" width="0.1524" layer="91"/>
+<label x="256.54" y="162.56" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC14"/>
+<wire x1="266.7" y1="162.56" x2="424.18" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A12" class="0">
@@ -11915,6 +12062,19 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="96.52" y1="175.26" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
 <label x="96.52" y="175.26" size="1.27" layer="95"/>
 </segment>
+<segment>
+<wire x1="162.56" y1="17.78" x2="165.1" y2="20.32" width="0.1524" layer="91"/>
+<label x="165.1" y="20.32" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A12"/>
+<wire x1="165.1" y1="20.32" x2="187.96" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="157.48" x2="256.54" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="160.02" x2="266.7" y2="160.02" width="0.1524" layer="91"/>
+<label x="256.54" y="160.02" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC14-I/O/GCK3"/>
+<wire x1="266.7" y1="160.02" x2="353.06" y2="45.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="A13" class="0">
 <segment>
@@ -11930,15 +12090,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="A13"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="FB3MC11"/>
-<wire x1="474.98" y1="68.58" x2="472.44" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="472.44" y1="71.12" x2="454.66" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="A13"/>
 <wire x1="93.98" y1="170.18" x2="96.52" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="172.72" x2="106.68" y2="172.72" width="0.1524" layer="91"/>
 <label x="96.52" y="172.72" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="162.56" y1="15.24" x2="165.1" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="17.78" x2="175.26" y2="17.78" width="0.1524" layer="91"/>
+<label x="165.1" y="17.78" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A18"/>
+<wire x1="187.96" y1="5.08" x2="175.26" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="154.94" x2="256.54" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="157.48" x2="266.7" y2="157.48" width="0.1524" layer="91"/>
+<label x="256.54" y="157.48" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC4"/>
+<wire x1="266.7" y1="157.48" x2="378.46" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A14" class="0">
@@ -11949,16 +12118,17 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="96.52" y="91.44" size="1.27" layer="95"/>
 </segment>
 <segment>
-<wire x1="431.8" y1="182.88" x2="429.26" y2="180.34" width="0.1524" layer="91"/>
-<label x="429.26" y="180.34" size="1.27" layer="95" rot="MR270"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC6"/>
-<wire x1="429.26" y1="180.34" x2="429.26" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="A14"/>
 <wire x1="93.98" y1="167.64" x2="96.52" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="170.18" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
 <label x="96.52" y="170.18" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="421.64" y1="-10.16" x2="419.1" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="-7.62" x2="419.1" y2="2.54" width="0.1524" layer="91"/>
+<label x="419.1" y="-7.62" size="1.27" layer="95" rot="R90"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC5"/>
+<wire x1="388.62" y1="45.72" x2="419.1" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A15" class="0">
@@ -11969,16 +12139,17 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="96.52" y="88.9" size="1.27" layer="95"/>
 </segment>
 <segment>
-<wire x1="474.98" y1="73.66" x2="472.44" y2="76.2" width="0.1524" layer="91"/>
-<label x="472.44" y="76.2" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC6"/>
-<wire x1="472.44" y1="76.2" x2="454.66" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="A15"/>
 <wire x1="93.98" y1="165.1" x2="96.52" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="167.64" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
 <label x="96.52" y="167.64" size="1.27" layer="95"/>
+</segment>
+<segment>
+<wire x1="424.18" y1="-10.16" x2="421.64" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="421.64" y1="-7.62" x2="421.64" y2="2.54" width="0.1524" layer="91"/>
+<label x="421.64" y="-7.62" size="1.27" layer="95" rot="R90"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC9"/>
+<wire x1="403.86" y1="45.72" x2="421.64" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -11995,16 +12166,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="D0"/>
 </segment>
 <segment>
-<wire x1="360.68" y1="35.56" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
-<label x="358.14" y="38.1" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC10"/>
-<wire x1="358.14" y1="45.72" x2="358.14" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="D0"/>
 <wire x1="149.86" y1="203.2" x2="147.32" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="205.74" x2="137.16" y2="205.74" width="0.1524" layer="91"/>
 <label x="147.32" y="205.74" size="1.27" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="241.3" y1="48.26" x2="238.76" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="50.8" x2="228.6" y2="50.8" width="0.1524" layer="91"/>
+<label x="238.76" y="50.8" size="1.27" layer="95" rot="MR0"/>
+<pinref part="IC3" gate="A" pin="D3"/>
+<wire x1="228.6" y1="50.8" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="127" x2="281.94" y2="129.54" width="0.1524" layer="91"/>
+<label x="281.94" y="129.54" size="1.27" layer="95"/>
+<wire x1="289.56" y1="129.54" x2="281.94" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC4"/>
+<wire x1="289.56" y1="129.54" x2="327.66" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -12021,16 +12200,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="D1"/>
 </segment>
 <segment>
-<wire x1="365.76" y1="35.56" x2="363.22" y2="38.1" width="0.1524" layer="91"/>
-<label x="363.22" y="38.1" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC15"/>
-<wire x1="363.22" y1="45.72" x2="363.22" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="D1"/>
 <wire x1="149.86" y1="200.66" x2="147.32" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="203.2" x2="137.16" y2="203.2" width="0.1524" layer="91"/>
 <label x="147.32" y="203.2" size="1.27" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="241.3" y1="45.72" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="48.26" x2="228.6" y2="48.26" width="0.1524" layer="91"/>
+<label x="238.76" y="48.26" size="1.27" layer="95" rot="MR0"/>
+<pinref part="IC3" gate="A" pin="D2"/>
+<wire x1="228.6" y1="48.26" x2="213.36" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="121.92" x2="281.94" y2="124.46" width="0.1524" layer="91"/>
+<label x="281.94" y="124.46" size="1.27" layer="95"/>
+<wire x1="289.56" y1="124.46" x2="281.94" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC3"/>
+<wire x1="289.56" y1="124.46" x2="327.66" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -12047,16 +12234,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="D2"/>
 </segment>
 <segment>
-<label x="368.3" y="38.1" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC17"/>
-<wire x1="368.3" y1="45.72" x2="368.3" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="38.1" x2="370.84" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="D2"/>
 <wire x1="149.86" y1="198.12" x2="147.32" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="200.66" x2="137.16" y2="200.66" width="0.1524" layer="91"/>
 <label x="147.32" y="200.66" size="1.27" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="241.3" y1="43.18" x2="238.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="45.72" x2="228.6" y2="45.72" width="0.1524" layer="91"/>
+<label x="238.76" y="45.72" size="1.27" layer="95" rot="MR0"/>
+<pinref part="IC3" gate="A" pin="D4"/>
+<wire x1="228.6" y1="45.72" x2="213.36" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="281.94" y="119.38" size="1.27" layer="95"/>
+<wire x1="289.56" y1="119.38" x2="281.94" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="119.38" x2="279.4" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC8"/>
+<wire x1="289.56" y1="119.38" x2="327.66" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -12073,16 +12268,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="D3"/>
 </segment>
 <segment>
-<wire x1="381" y1="35.56" x2="378.46" y2="38.1" width="0.1524" layer="91"/>
-<label x="378.46" y="38.1" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC2"/>
-<wire x1="378.46" y1="45.72" x2="378.46" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="D3"/>
 <wire x1="149.86" y1="195.58" x2="147.32" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="198.12" x2="137.16" y2="198.12" width="0.1524" layer="91"/>
 <label x="147.32" y="198.12" size="1.27" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="241.3" y1="40.64" x2="238.76" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="43.18" x2="228.6" y2="43.18" width="0.1524" layer="91"/>
+<label x="238.76" y="43.18" size="1.27" layer="95" rot="MR0"/>
+<pinref part="IC3" gate="A" pin="D1"/>
+<wire x1="228.6" y1="43.18" x2="213.36" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="106.68" x2="281.94" y2="109.22" width="0.1524" layer="91"/>
+<label x="281.94" y="109.22" size="1.27" layer="95"/>
+<wire x1="289.56" y1="109.22" x2="281.94" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC6"/>
+<wire x1="289.56" y1="109.22" x2="327.66" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -12099,16 +12302,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="D4"/>
 </segment>
 <segment>
-<wire x1="386.08" y1="35.56" x2="383.54" y2="38.1" width="0.1524" layer="91"/>
-<label x="383.54" y="38.1" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC12"/>
-<wire x1="383.54" y1="45.72" x2="383.54" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="D4"/>
 <wire x1="149.86" y1="193.04" x2="147.32" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="195.58" x2="137.16" y2="195.58" width="0.1524" layer="91"/>
 <label x="147.32" y="195.58" size="1.27" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="241.3" y1="38.1" x2="238.76" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="40.64" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
+<label x="238.76" y="40.64" size="1.27" layer="95" rot="MR0"/>
+<pinref part="IC3" gate="A" pin="D5"/>
+<wire x1="228.6" y1="40.64" x2="213.36" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="101.6" x2="281.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="281.94" y="104.14" size="1.27" layer="95"/>
+<wire x1="289.56" y1="104.14" x2="281.94" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC5"/>
+<wire x1="289.56" y1="104.14" x2="327.66" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -12125,16 +12336,24 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="D5"/>
 </segment>
 <segment>
-<wire x1="391.16" y1="35.56" x2="388.62" y2="38.1" width="0.1524" layer="91"/>
-<label x="388.62" y="38.1" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC5"/>
-<wire x1="388.62" y1="45.72" x2="388.62" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="D5"/>
 <wire x1="149.86" y1="190.5" x2="147.32" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="193.04" x2="137.16" y2="193.04" width="0.1524" layer="91"/>
 <label x="147.32" y="193.04" size="1.27" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="241.3" y1="35.56" x2="238.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="38.1" x2="228.6" y2="38.1" width="0.1524" layer="91"/>
+<label x="238.76" y="38.1" size="1.27" layer="95" rot="MR0"/>
+<pinref part="IC3" gate="A" pin="D0"/>
+<wire x1="228.6" y1="38.1" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="96.52" x2="281.94" y2="99.06" width="0.1524" layer="91"/>
+<label x="281.94" y="99.06" size="1.27" layer="95"/>
+<wire x1="289.56" y1="99.06" x2="281.94" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC2"/>
+<wire x1="289.56" y1="99.06" x2="327.66" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -12151,16 +12370,23 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="D6"/>
 </segment>
 <segment>
-<wire x1="396.24" y1="35.56" x2="393.7" y2="38.1" width="0.1524" layer="91"/>
-<label x="393.7" y="38.1" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC8"/>
-<wire x1="393.7" y1="45.72" x2="393.7" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="D6"/>
 <wire x1="149.86" y1="187.96" x2="147.32" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="190.5" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
 <label x="147.32" y="190.5" size="1.27" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="241.3" y1="33.02" x2="238.76" y2="35.56" width="0.1524" layer="91"/>
+<label x="238.76" y="35.56" size="1.27" layer="95" rot="MR0"/>
+<pinref part="IC3" gate="A" pin="D6"/>
+<wire x1="238.76" y1="35.56" x2="213.36" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="91.44" x2="281.94" y2="93.98" width="0.1524" layer="91"/>
+<label x="281.94" y="93.98" size="1.27" layer="95"/>
+<wire x1="289.56" y1="93.98" x2="281.94" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC17"/>
+<wire x1="289.56" y1="93.98" x2="327.66" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -12177,16 +12403,23 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC1" gate="G$1" pin="D7"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="35.56" x2="403.86" y2="38.1" width="0.1524" layer="91"/>
-<label x="403.86" y="38.1" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC9"/>
-<wire x1="403.86" y1="45.72" x2="403.86" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="D7"/>
 <wire x1="149.86" y1="185.42" x2="147.32" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="187.96" x2="137.16" y2="187.96" width="0.1524" layer="91"/>
 <label x="147.32" y="187.96" size="1.27" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="241.3" y1="30.48" x2="238.76" y2="33.02" width="0.1524" layer="91"/>
+<label x="238.76" y="33.02" size="1.27" layer="95" rot="MR0"/>
+<pinref part="IC3" gate="A" pin="D7"/>
+<wire x1="238.76" y1="33.02" x2="213.36" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="279.4" y1="81.28" x2="281.94" y2="83.82" width="0.1524" layer="91"/>
+<label x="281.94" y="83.82" size="1.27" layer="95"/>
+<wire x1="289.56" y1="83.82" x2="281.94" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC15"/>
+<wire x1="289.56" y1="83.82" x2="327.66" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -12220,6 +12453,11 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <pinref part="X2" gate="PWR" pin="VCC"/>
 <wire x1="119.38" y1="-25.4" x2="119.38" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+6" gate="1" pin="+5V"/>
+<pinref part="IC3" gate="P" pin="VCC@1"/>
+<wire x1="228.6" y1="-25.4" x2="228.6" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -12333,10 +12571,10 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <junction x="457.2" y="38.1"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="!CE"/>
-<wire x1="111.76" y1="0" x2="109.22" y2="0" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="0" x2="109.22" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="!OE"/>
+<wire x1="109.22" y1="-2.54" x2="109.22" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-2.54" x2="109.22" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1.1" gate="G$1" pin="2"/>
@@ -12383,6 +12621,17 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="121.92" y1="-48.26" x2="121.92" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="A" pin="!OE"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="187.96" y1="-2.54" x2="185.42" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-2.54" x2="185.42" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="P" pin="GND@1"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="228.6" y1="-48.26" x2="228.6" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="R/!W" class="0">
 <segment>
@@ -12391,14 +12640,14 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="91.44" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="424.18" y1="45.72" x2="424.18" y2="30.48" width="0.1524" layer="91"/>
-<label x="424.18" y="30.48" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC3"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="R/!W"/>
 <wire x1="106.68" y1="162.56" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
 <label x="91.44" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="327.66" y1="71.12" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
+<label x="312.42" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC10-I/O/GCK2"/>
 </segment>
 </net>
 <net name="E" class="0">
@@ -12408,14 +12657,14 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="91.44" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="353.06" y1="45.72" x2="353.06" y2="33.02" width="0.1524" layer="91"/>
-<label x="353.06" y="33.02" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC14-I/O/GCK3"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="E"/>
 <wire x1="106.68" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
 <label x="91.44" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="FB1MC9-I/O/GCK1"/>
+<wire x1="327.66" y1="76.2" x2="312.42" y2="76.2" width="0.1524" layer="91"/>
+<label x="312.42" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!CTS" class="0">
@@ -12425,14 +12674,14 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="91.44" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="!OE"/>
-<wire x1="111.76" y1="-2.54" x2="96.52" y2="-2.54" width="0.1524" layer="91"/>
-<label x="96.52" y="-2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="!CTS"/>
 <wire x1="106.68" y1="147.32" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
 <label x="91.44" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="368.3" y="25.4" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC17"/>
+<wire x1="368.3" y1="45.72" x2="368.3" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!SCS" class="0">
@@ -12442,14 +12691,14 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="91.44" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="477.52" y="147.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC11"/>
-<wire x1="454.66" y1="147.32" x2="477.52" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="!SCS"/>
 <wire x1="106.68" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
 <label x="91.44" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="383.54" y1="45.72" x2="383.54" y2="30.48" width="0.1524" layer="91"/>
+<label x="383.54" y="30.48" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC12"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
@@ -12459,14 +12708,14 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="91.44" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="FB1MC10-I/O/GCK2"/>
-<wire x1="327.66" y1="71.12" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
-<label x="312.42" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="!RESET"/>
 <wire x1="106.68" y1="210.82" x2="91.44" y2="210.82" width="0.1524" layer="91"/>
 <label x="91.44" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="FB2MC12"/>
+<wire x1="327.66" y1="132.08" x2="309.88" y2="132.08" width="0.1524" layer="91"/>
+<label x="309.88" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BA14" class="0">
@@ -12477,10 +12726,18 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="101.6" y="15.24" size="1.27" layer="95"/>
 </segment>
 <segment>
-<wire x1="469.9" y1="83.82" x2="467.36" y2="86.36" width="0.1524" layer="91"/>
-<label x="467.36" y="86.36" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC15"/>
-<wire x1="467.36" y1="86.36" x2="454.66" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="12.7" x2="165.1" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="15.24" x2="175.26" y2="15.24" width="0.1524" layer="91"/>
+<label x="165.1" y="15.24" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A9"/>
+<wire x1="175.26" y1="15.24" x2="187.96" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="152.4" x2="256.54" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="154.94" x2="266.7" y2="154.94" width="0.1524" layer="91"/>
+<label x="256.54" y="154.94" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC17"/>
+<wire x1="266.7" y1="154.94" x2="388.62" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BA15" class="0">
@@ -12491,10 +12748,18 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="101.6" y="12.7" size="1.27" layer="95"/>
 </segment>
 <segment>
-<wire x1="469.9" y1="139.7" x2="467.36" y2="142.24" width="0.1524" layer="91"/>
-<label x="467.36" y="142.24" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC4"/>
-<wire x1="454.66" y1="142.24" x2="467.36" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="10.16" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="12.7" x2="175.26" y2="12.7" width="0.1524" layer="91"/>
+<label x="165.1" y="12.7" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A14"/>
+<wire x1="175.26" y1="12.7" x2="187.96" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="149.86" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="152.4" x2="266.7" y2="152.4" width="0.1524" layer="91"/>
+<label x="256.54" y="152.4" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC15"/>
+<wire x1="266.7" y1="152.4" x2="363.22" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BA16" class="0">
@@ -12505,10 +12770,17 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="101.6" y="10.16" size="1.27" layer="95"/>
 </segment>
 <segment>
-<wire x1="469.9" y1="134.62" x2="467.36" y2="137.16" width="0.1524" layer="91"/>
-<label x="467.36" y="137.16" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC3"/>
-<wire x1="467.36" y1="137.16" x2="454.66" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="7.62" x2="165.1" y2="10.16" width="0.1524" layer="91"/>
+<label x="165.1" y="10.16" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A16"/>
+<wire x1="165.1" y1="10.16" x2="187.96" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="147.32" x2="256.54" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="149.86" x2="266.7" y2="149.86" width="0.1524" layer="91"/>
+<label x="256.54" y="149.86" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC2"/>
+<wire x1="266.7" y1="149.86" x2="378.46" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BA17" class="0">
@@ -12519,10 +12791,18 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="101.6" y="7.62" size="1.27" layer="95"/>
 </segment>
 <segment>
-<wire x1="469.9" y1="99.06" x2="467.36" y2="101.6" width="0.1524" layer="91"/>
-<label x="467.36" y="101.6" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC10"/>
-<wire x1="467.36" y1="101.6" x2="454.66" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="5.08" x2="165.1" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="7.62" x2="175.26" y2="7.62" width="0.1524" layer="91"/>
+<label x="165.1" y="7.62" size="1.27" layer="95"/>
+<pinref part="IC3" gate="A" pin="A11"/>
+<wire x1="175.26" y1="7.62" x2="187.96" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="144.78" x2="256.54" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="147.32" x2="266.7" y2="147.32" width="0.1524" layer="91"/>
+<label x="256.54" y="147.32" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC15"/>
+<wire x1="266.7" y1="147.32" x2="393.7" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BA18" class="0">
@@ -12533,10 +12813,18 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="101.6" y="5.08" size="1.27" layer="95"/>
 </segment>
 <segment>
-<wire x1="469.9" y1="124.46" x2="467.36" y2="127" width="0.1524" layer="91"/>
-<label x="467.36" y="127" size="1.27" layer="95" rot="MR0"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC5"/>
-<wire x1="467.36" y1="127" x2="454.66" y2="127" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="2.54" x2="165.1" y2="5.08" width="0.1524" layer="91"/>
+<label x="165.1" y="5.08" size="1.27" layer="95"/>
+<wire x1="165.1" y1="5.08" x2="175.26" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="A" pin="A10"/>
+<wire x1="175.26" y1="5.08" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="254" y1="142.24" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="144.78" x2="266.7" y2="144.78" width="0.1524" layer="91"/>
+<label x="256.54" y="144.78" size="1.27" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC11"/>
+<wire x1="266.7" y1="144.78" x2="454.66" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!WE" class="0">
@@ -12546,9 +12834,18 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="96.52" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="477.52" y="116.84" size="1.27" layer="95" xref="yes"/>
-<wire x1="454.66" y1="116.84" x2="477.52" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC16"/>
+<wire x1="187.96" y1="-5.08" x2="172.72" y2="-5.08" width="0.1524" layer="91"/>
+<label x="172.72" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC3" gate="A" pin="!WE"/>
+</segment>
+<segment>
+<label x="419.1" y="187.96" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC10"/>
+<wire x1="419.1" y1="187.96" x2="419.1" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="485.14" y1="104.14" x2="500.38" y2="104.14" width="0.1524" layer="91"/>
+<label x="500.38" y="104.14" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="!SLENB" class="0">
@@ -12558,14 +12855,18 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="152.4" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="424.18" y="185.42" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC14"/>
-<wire x1="424.18" y1="185.42" x2="424.18" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X2" gate="X" pin="!SLENB"/>
 <wire x1="137.16" y1="175.26" x2="152.4" y2="175.26" width="0.1524" layer="91"/>
 <label x="152.4" y="175.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="454.66" y="241.3" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="454.66" y1="241.3" x2="454.66" y2="228.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="393.7" y="30.48" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC8"/>
+<wire x1="393.7" y1="30.48" x2="393.7" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SND" class="0">
@@ -12614,98 +12915,6 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="152.4" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CLK_SN" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="FB1MC6"/>
-<wire x1="327.66" y1="101.6" x2="312.42" y2="101.6" width="0.1524" layer="91"/>
-<label x="312.42" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="!CE_YM" class="0">
-<segment>
-<wire x1="383.54" y1="172.72" x2="383.54" y2="185.42" width="0.1524" layer="91"/>
-<label x="383.54" y="185.42" size="1.27" layer="95" rot="MR90" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB2MC3"/>
-</segment>
-</net>
-<net name="BD0" class="0">
-<segment>
-<wire x1="314.96" y1="144.78" x2="317.5" y2="147.32" width="0.1524" layer="91"/>
-<label x="317.5" y="147.32" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB2MC10"/>
-<wire x1="317.5" y1="147.32" x2="327.66" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BD1" class="0">
-<segment>
-<wire x1="314.96" y1="129.54" x2="317.5" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="132.08" x2="327.66" y2="132.08" width="0.1524" layer="91"/>
-<label x="317.5" y="132.08" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB2MC12"/>
-</segment>
-</net>
-<net name="BD2" class="0">
-<segment>
-<wire x1="314.96" y1="119.38" x2="317.5" y2="121.92" width="0.1524" layer="91"/>
-<label x="317.5" y="121.92" size="1.27" layer="95"/>
-<wire x1="317.5" y1="121.92" x2="327.66" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="FB2MC15"/>
-</segment>
-</net>
-<net name="BD3" class="0">
-<segment>
-<wire x1="314.96" y1="109.22" x2="317.5" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="111.76" x2="327.66" y2="111.76" width="0.1524" layer="91"/>
-<label x="317.5" y="111.76" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC2"/>
-</segment>
-</net>
-<net name="BD4" class="0">
-<segment>
-<wire x1="314.96" y1="88.9" x2="317.5" y2="91.44" width="0.1524" layer="91"/>
-<label x="317.5" y="91.44" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC3"/>
-<wire x1="317.5" y1="91.44" x2="327.66" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BD5" class="0">
-<segment>
-<wire x1="314.96" y1="83.82" x2="317.5" y2="86.36" width="0.1524" layer="91"/>
-<label x="317.5" y="86.36" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC4"/>
-<wire x1="317.5" y1="86.36" x2="327.66" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BD6" class="0">
-<segment>
-<wire x1="314.96" y1="93.98" x2="317.5" y2="96.52" width="0.1524" layer="91"/>
-<label x="317.5" y="96.52" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC8"/>
-<wire x1="317.5" y1="96.52" x2="327.66" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BD7" class="0">
-<segment>
-<wire x1="314.96" y1="104.14" x2="317.5" y2="106.68" width="0.1524" layer="91"/>
-<label x="317.5" y="106.68" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC5"/>
-<wire x1="317.5" y1="106.68" x2="327.66" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="!WE_SN" class="0">
-<segment>
-<wire x1="327.66" y1="127" x2="312.42" y2="127" width="0.1524" layer="91"/>
-<label x="312.42" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB2MC14-I/O/GTS1"/>
-</segment>
-</net>
-<net name="READY" class="0">
-<segment>
-<wire x1="327.66" y1="116.84" x2="312.42" y2="116.84" width="0.1524" layer="91"/>
-<label x="312.42" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB2MC17"/>
-</segment>
-</net>
 <net name="TCK" class="0">
 <segment>
 <pinref part="TCK" gate="G$1" pin="TP"/>
@@ -12734,41 +12943,6 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="408.94" y1="177.8" x2="408.94" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CLK_YM" class="0">
-<segment>
-<wire x1="393.7" y1="172.72" x2="393.7" y2="185.42" width="0.1524" layer="91"/>
-<label x="393.7" y="185.42" size="1.27" layer="95" rot="MR90" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC15"/>
-</segment>
-</net>
-<net name="A0_YM" class="0">
-<segment>
-<wire x1="388.62" y1="172.72" x2="388.62" y2="185.42" width="0.1524" layer="91"/>
-<label x="388.62" y="185.42" size="1.27" layer="95" rot="MR90" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC17"/>
-</segment>
-</net>
-<net name="CH2" class="0">
-<segment>
-<label x="373.38" y="185.42" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB2MC2"/>
-<wire x1="373.38" y1="185.42" x2="373.38" y2="172.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="!CE_SN" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="FB2MC11-I/O/GTS2"/>
-<wire x1="327.66" y1="142.24" x2="312.42" y2="142.24" width="0.1524" layer="91"/>
-<label x="312.42" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="!RESET_YM" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="FB2MC4"/>
-<wire x1="378.46" y1="172.72" x2="378.46" y2="185.42" width="0.1524" layer="91"/>
-<label x="378.46" y="185.42" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
 <net name="!NMI" class="0">
 <segment>
 <pinref part="X2" gate="X" pin="!NMI"/>
@@ -12791,6 +12965,130 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="X1" gate="X" pin="!HALT"/>
 <wire x1="137.16" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
 <label x="152.4" y="91.44" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!CE_FLASH" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="!CE"/>
+<wire x1="111.76" y1="0" x2="96.52" y2="0" width="0.1524" layer="91"/>
+<label x="96.52" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="309.88" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC11-I/O/GTS2"/>
+<wire x1="309.88" y1="142.24" x2="327.66" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="360.68" y1="231.14" x2="360.68" y2="246.38" width="0.1524" layer="91"/>
+<label x="360.68" y="246.38" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="!CE_RAM" class="0">
+<segment>
+<pinref part="IC3" gate="A" pin="!CE"/>
+<wire x1="187.96" y1="0" x2="172.72" y2="0" width="0.1524" layer="91"/>
+<label x="172.72" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="355.6" y1="231.14" x2="355.6" y2="246.38" width="0.1524" layer="91"/>
+<label x="355.6" y="246.38" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<label x="482.6" y="142.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC4"/>
+<wire x1="482.6" y1="142.24" x2="454.66" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!RESET_AUDIO" class="0">
+<segment>
+<wire x1="485.14" y1="127" x2="500.38" y2="127" width="0.1524" layer="91"/>
+<label x="500.38" y="127" size="1.27" layer="95" rot="MR180" xref="yes"/>
+</segment>
+</net>
+<net name="DB0" class="0">
+<segment>
+<wire x1="497.84" y1="93.98" x2="495.3" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="96.52" x2="485.14" y2="96.52" width="0.1524" layer="91"/>
+<label x="495.3" y="96.52" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="DB1" class="0">
+<segment>
+<wire x1="497.84" y1="91.44" x2="495.3" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="93.98" x2="485.14" y2="93.98" width="0.1524" layer="91"/>
+<label x="495.3" y="93.98" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="DB2" class="0">
+<segment>
+<wire x1="497.84" y1="88.9" x2="495.3" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="91.44" x2="485.14" y2="91.44" width="0.1524" layer="91"/>
+<label x="495.3" y="91.44" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="DB3" class="0">
+<segment>
+<wire x1="497.84" y1="86.36" x2="495.3" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="88.9" x2="485.14" y2="88.9" width="0.1524" layer="91"/>
+<label x="495.3" y="88.9" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="DB4" class="0">
+<segment>
+<wire x1="497.84" y1="83.82" x2="495.3" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="86.36" x2="485.14" y2="86.36" width="0.1524" layer="91"/>
+<label x="495.3" y="86.36" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="DB5" class="0">
+<segment>
+<wire x1="497.84" y1="81.28" x2="495.3" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="83.82" x2="485.14" y2="83.82" width="0.1524" layer="91"/>
+<label x="495.3" y="83.82" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="DB6" class="0">
+<segment>
+<wire x1="497.84" y1="78.74" x2="495.3" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="81.28" x2="485.14" y2="81.28" width="0.1524" layer="91"/>
+<label x="495.3" y="81.28" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="DB7" class="0">
+<segment>
+<wire x1="497.84" y1="76.2" x2="495.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="495.3" y1="78.74" x2="485.14" y2="78.74" width="0.1524" layer="91"/>
+<label x="495.3" y="78.74" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="!OE" class="0">
+<segment>
+<wire x1="485.14" y1="101.6" x2="500.38" y2="101.6" width="0.1524" layer="91"/>
+<label x="500.38" y="101.6" size="1.27" layer="95" rot="MR180" xref="yes"/>
+</segment>
+</net>
+<net name="AB1" class="0">
+<segment>
+<wire x1="485.14" y1="109.22" x2="500.38" y2="109.22" width="0.1524" layer="91"/>
+<label x="500.38" y="109.22" size="1.27" layer="95" rot="MR180" xref="yes"/>
+</segment>
+</net>
+<net name="AB0" class="0">
+<segment>
+<wire x1="485.14" y1="111.76" x2="500.38" y2="111.76" width="0.1524" layer="91"/>
+<label x="500.38" y="111.76" size="1.27" layer="95" rot="MR180" xref="yes"/>
+</segment>
+</net>
+<net name="!CE_YMF262" class="0">
+<segment>
+<wire x1="485.14" y1="116.84" x2="500.38" y2="116.84" width="0.1524" layer="91"/>
+<label x="500.38" y="116.84" size="1.27" layer="95" rot="MR180" xref="yes"/>
+</segment>
+</net>
+<net name="!IRQ_AUDIO" class="0">
+<segment>
+<wire x1="485.14" y1="73.66" x2="500.38" y2="73.66" width="0.1524" layer="91"/>
+<label x="500.38" y="73.66" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 </nets>
