@@ -11512,6 +11512,10 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="C3.1" library="resistor" deviceset="C-US" device="C0402" value=".1"/>
+<part name="P+7" library="supply1" deviceset="+5V" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11580,6 +11584,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <instance part="IC3" gate="P" x="228.6" y="-38.1"/>
 <instance part="P+6" gate="1" x="228.6" y="-22.86"/>
 <instance part="GND13" gate="1" x="228.6" y="-53.34"/>
+<instance part="C3.1" gate="G$1" x="238.76" y="-38.1"/>
+<instance part="P+7" gate="1" x="238.76" y="-22.86"/>
+<instance part="GND15" gate="1" x="238.76" y="-53.34"/>
 </instances>
 <busses>
 <bus name="A[0..15]">
@@ -11667,8 +11674,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="254" y1="187.96" x2="256.54" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="190.5" x2="266.7" y2="190.5" width="0.1524" layer="91"/>
 <label x="256.54" y="190.5" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB2MC14-I/O/GTS1"/>
-<wire x1="266.7" y1="190.5" x2="327.66" y2="127" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC12"/>
+<wire x1="327.66" y1="132.08" x2="266.7" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -12127,8 +12134,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="421.64" y1="-10.16" x2="419.1" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="-7.62" x2="419.1" y2="2.54" width="0.1524" layer="91"/>
 <label x="419.1" y="-7.62" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC5"/>
-<wire x1="388.62" y1="45.72" x2="419.1" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC9"/>
+<wire x1="419.1" y1="2.54" x2="403.86" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A15" class="0">
@@ -12148,8 +12155,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="424.18" y1="-10.16" x2="421.64" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="421.64" y1="-7.62" x2="421.64" y2="2.54" width="0.1524" layer="91"/>
 <label x="421.64" y="-7.62" size="1.27" layer="95" rot="R90"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC9"/>
-<wire x1="403.86" y1="45.72" x2="421.64" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC4"/>
+<wire x1="421.64" y1="2.54" x2="429.26" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -12181,9 +12188,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <segment>
 <wire x1="279.4" y1="127" x2="281.94" y2="129.54" width="0.1524" layer="91"/>
 <label x="281.94" y="129.54" size="1.27" layer="95"/>
-<wire x1="289.56" y1="129.54" x2="281.94" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="129.54" x2="281.94" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="FB1MC4"/>
-<wire x1="289.56" y1="129.54" x2="327.66" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="129.54" x2="327.66" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -12459,6 +12466,11 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC3" gate="P" pin="VCC@1"/>
 <wire x1="228.6" y1="-25.4" x2="228.6" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="P+7" gate="1" pin="+5V"/>
+<pinref part="C3.1" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="-25.4" x2="238.76" y2="-35.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -12632,6 +12644,11 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="228.6" y1="-48.26" x2="228.6" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C3.1" gate="G$1" pin="2"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="238.76" y1="-43.18" x2="238.76" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="R/!W" class="0">
 <segment>
@@ -12645,9 +12662,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="91.44" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="327.66" y1="71.12" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
-<label x="312.42" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC10-I/O/GCK2"/>
+<label x="259.08" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB2MC14-I/O/GTS1"/>
+<wire x1="259.08" y1="121.92" x2="327.66" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E" class="0">
@@ -12662,9 +12679,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="91.44" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="FB1MC9-I/O/GCK1"/>
-<wire x1="327.66" y1="76.2" x2="312.42" y2="76.2" width="0.1524" layer="91"/>
 <label x="312.42" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC9-I/O/GCK1"/>
+<wire x1="312.42" y1="76.2" x2="327.66" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!CTS" class="0">
@@ -12679,9 +12696,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="91.44" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="368.3" y="25.4" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC17"/>
-<wire x1="368.3" y1="45.72" x2="368.3" y2="25.4" width="0.1524" layer="91"/>
+<label x="363.22" y="25.4" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC15"/>
+<wire x1="363.22" y1="45.72" x2="363.22" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!SCS" class="0">
@@ -12696,9 +12713,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="91.44" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="383.54" y1="45.72" x2="383.54" y2="30.48" width="0.1524" layer="91"/>
-<label x="383.54" y="30.48" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC12"/>
+<label x="393.7" y="25.4" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC8"/>
+<wire x1="393.7" y1="25.4" x2="393.7" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
@@ -12713,9 +12730,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="91.44" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="FB2MC12"/>
-<wire x1="327.66" y1="132.08" x2="309.88" y2="132.08" width="0.1524" layer="91"/>
-<label x="309.88" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="312.42" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC10-I/O/GCK2"/>
+<wire x1="327.66" y1="71.12" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BA14" class="0">
@@ -12758,8 +12775,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="254" y1="149.86" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="152.4" x2="266.7" y2="152.4" width="0.1524" layer="91"/>
 <label x="256.54" y="152.4" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB1MC15"/>
-<wire x1="266.7" y1="152.4" x2="363.22" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC3"/>
+<wire x1="266.7" y1="152.4" x2="454.66" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BA16" class="0">
@@ -12779,8 +12796,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="254" y1="147.32" x2="256.54" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="149.86" x2="266.7" y2="149.86" width="0.1524" layer="91"/>
 <label x="256.54" y="149.86" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC2"/>
-<wire x1="266.7" y1="149.86" x2="378.46" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC8"/>
+<wire x1="266.7" y1="149.86" x2="454.66" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BA17" class="0">
@@ -12823,8 +12840,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="254" y1="142.24" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="144.78" x2="266.7" y2="144.78" width="0.1524" layer="91"/>
 <label x="256.54" y="144.78" size="1.27" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC11"/>
-<wire x1="266.7" y1="144.78" x2="454.66" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="144.78" x2="444.5" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC4"/>
+<wire x1="444.5" y1="142.24" x2="454.66" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!WE" class="0">
@@ -12843,10 +12861,6 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC2" gate="G$1" pin="FB4MC10"/>
 <wire x1="419.1" y1="187.96" x2="419.1" y2="172.72" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="485.14" y1="104.14" x2="500.38" y2="104.14" width="0.1524" layer="91"/>
-<label x="500.38" y="104.14" size="1.27" layer="95" rot="MR180" xref="yes"/>
-</segment>
 </net>
 <net name="!SLENB" class="0">
 <segment>
@@ -12860,13 +12874,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="152.4" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="454.66" y="241.3" size="1.27" layer="95" rot="R90" xref="yes"/>
-<wire x1="454.66" y1="241.3" x2="454.66" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="393.7" y="30.48" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB3MC8"/>
-<wire x1="393.7" y1="30.48" x2="393.7" y2="45.72" width="0.1524" layer="91"/>
+<label x="424.18" y="27.94" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC3"/>
+<wire x1="424.18" y1="27.94" x2="424.18" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SND" class="0">
@@ -12978,10 +12988,6 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC2" gate="G$1" pin="FB2MC11-I/O/GTS2"/>
 <wire x1="309.88" y1="142.24" x2="327.66" y2="142.24" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="360.68" y1="231.14" x2="360.68" y2="246.38" width="0.1524" layer="91"/>
-<label x="360.68" y="246.38" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="!CE_RAM" class="0">
 <segment>
@@ -12990,19 +12996,16 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="172.72" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="355.6" y1="231.14" x2="355.6" y2="246.38" width="0.1524" layer="91"/>
-<label x="355.6" y="246.38" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<label x="482.6" y="142.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="FB4MC4"/>
-<wire x1="482.6" y1="142.24" x2="454.66" y2="142.24" width="0.1524" layer="91"/>
+<label x="482.6" y="147.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC11"/>
+<wire x1="482.6" y1="147.32" x2="454.66" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!RESET_AUDIO" class="0">
 <segment>
-<wire x1="485.14" y1="127" x2="500.38" y2="127" width="0.1524" layer="91"/>
 <label x="500.38" y="127" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB4MC5"/>
+<wire x1="500.38" y1="127" x2="454.66" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DB0" class="0">
@@ -13010,6 +13013,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="497.84" y1="93.98" x2="495.3" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="96.52" x2="485.14" y2="96.52" width="0.1524" layer="91"/>
 <label x="495.3" y="96.52" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC5"/>
+<wire x1="485.14" y1="96.52" x2="388.62" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DB1" class="0">
@@ -13017,6 +13022,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="497.84" y1="91.44" x2="495.3" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="93.98" x2="485.14" y2="93.98" width="0.1524" layer="91"/>
 <label x="495.3" y="93.98" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC12"/>
+<wire x1="485.14" y1="93.98" x2="383.54" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DB2" class="0">
@@ -13024,6 +13031,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="497.84" y1="88.9" x2="495.3" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="91.44" x2="485.14" y2="91.44" width="0.1524" layer="91"/>
 <label x="495.3" y="91.44" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC2" gate="G$1" pin="FB1MC17"/>
+<wire x1="485.14" y1="91.44" x2="368.3" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DB3" class="0">
@@ -13031,6 +13040,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="497.84" y1="86.36" x2="495.3" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="88.9" x2="485.14" y2="88.9" width="0.1524" layer="91"/>
 <label x="495.3" y="88.9" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC2"/>
+<wire x1="485.14" y1="88.9" x2="378.46" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DB4" class="0">
@@ -13038,6 +13049,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="497.84" y1="83.82" x2="495.3" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="86.36" x2="485.14" y2="86.36" width="0.1524" layer="91"/>
 <label x="495.3" y="86.36" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC11"/>
+<wire x1="485.14" y1="86.36" x2="454.66" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DB5" class="0">
@@ -13045,6 +13058,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="497.84" y1="81.28" x2="495.3" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="83.82" x2="485.14" y2="83.82" width="0.1524" layer="91"/>
 <label x="495.3" y="83.82" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC6"/>
+<wire x1="485.14" y1="83.82" x2="454.66" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DB6" class="0">
@@ -13052,6 +13067,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="497.84" y1="78.74" x2="495.3" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="81.28" x2="485.14" y2="81.28" width="0.1524" layer="91"/>
 <label x="495.3" y="81.28" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC15"/>
+<wire x1="485.14" y1="81.28" x2="454.66" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DB7" class="0">
@@ -13059,36 +13076,16 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="497.84" y1="76.2" x2="495.3" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="495.3" y1="78.74" x2="485.14" y2="78.74" width="0.1524" layer="91"/>
 <label x="495.3" y="78.74" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="!OE" class="0">
-<segment>
-<wire x1="485.14" y1="101.6" x2="500.38" y2="101.6" width="0.1524" layer="91"/>
-<label x="500.38" y="101.6" size="1.27" layer="95" rot="MR180" xref="yes"/>
-</segment>
-</net>
-<net name="AB1" class="0">
-<segment>
-<wire x1="485.14" y1="109.22" x2="500.38" y2="109.22" width="0.1524" layer="91"/>
-<label x="500.38" y="109.22" size="1.27" layer="95" rot="MR180" xref="yes"/>
-</segment>
-</net>
-<net name="AB0" class="0">
-<segment>
-<wire x1="485.14" y1="111.76" x2="500.38" y2="111.76" width="0.1524" layer="91"/>
-<label x="500.38" y="111.76" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC17"/>
+<wire x1="485.14" y1="78.74" x2="454.66" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!CE_YMF262" class="0">
 <segment>
 <wire x1="485.14" y1="116.84" x2="500.38" y2="116.84" width="0.1524" layer="91"/>
 <label x="500.38" y="116.84" size="1.27" layer="95" rot="MR180" xref="yes"/>
-</segment>
-</net>
-<net name="!IRQ_AUDIO" class="0">
-<segment>
-<wire x1="485.14" y1="73.66" x2="500.38" y2="73.66" width="0.1524" layer="91"/>
-<label x="500.38" y="73.66" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="FB3MC14"/>
+<wire x1="485.14" y1="116.84" x2="454.66" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -13190,6 +13187,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <instance part="IC15" gate="B" x="205.74" y="68.58"/>
 <instance part="IC14" gate="G$1" x="60.96" y="20.32"/>
 <instance part="IC15" gate="G$1" x="68.58" y="20.32"/>
+<instance part="GND14" gate="1" x="71.12" y="121.92"/>
 </instances>
 <busses>
 <bus name="DB[0..7],AB[0..18],!RCE,!FCE,!WE">
@@ -13281,6 +13279,12 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="251.46" y1="83.82" x2="248.92" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="83.82" x2="248.92" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC9" gate="A" pin="!RD"/>
+<wire x1="73.66" y1="167.64" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="167.64" x2="71.12" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="!RESET_AUDIO" class="0">
@@ -13416,13 +13420,6 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="IC9" gate="A" pin="D7"/>
 </segment>
 </net>
-<net name="!OE" class="0">
-<segment>
-<pinref part="IC9" gate="A" pin="!RD"/>
-<wire x1="73.66" y1="167.64" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
-<label x="58.42" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="!WE" class="0">
 <segment>
 <pinref part="IC9" gate="A" pin="!WR"/>
@@ -13430,14 +13427,14 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="58.42" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="AB1" class="0">
+<net name="A1" class="0">
 <segment>
 <pinref part="IC9" gate="A" pin="A1"/>
 <wire x1="73.66" y1="175.26" x2="58.42" y2="175.26" width="0.1524" layer="91"/>
 <label x="58.42" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="AB0" class="0">
+<net name="A0" class="0">
 <segment>
 <pinref part="IC9" gate="A" pin="A0"/>
 <wire x1="73.66" y1="177.8" x2="58.42" y2="177.8" width="0.1524" layer="91"/>
@@ -13459,7 +13456,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
-<net name="!IRQ_AUDIO" class="0">
+<net name="!NMI" class="0">
 <segment>
 <pinref part="IC9" gate="A" pin="!IRQ"/>
 <wire x1="73.66" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
