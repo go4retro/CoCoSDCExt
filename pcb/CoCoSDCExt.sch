@@ -11151,7 +11151,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <part name="R15" library="resistor" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="C15.2" library="rcl" deviceset="C-US" device="C0402" value=".1"/>
+<part name="C15.2" library="rcl" deviceset="C-US" device="C0402" value=".1u"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="R16" library="resistor" deviceset="R-US_" device="R1206" value="?K"/>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
@@ -11160,11 +11160,11 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="C4.2" library="rcl" deviceset="C-US" device="C0805" value="10u"/>
-<part name="C7" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B"/>
-<part name="C17" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B"/>
-<part name="C18" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B"/>
-<part name="C19" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B"/>
-<part name="C20" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B"/>
+<part name="C7" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B" value="1u"/>
+<part name="C17" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B" value="1u"/>
+<part name="C18" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B" value="1u"/>
+<part name="C19" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B" value="1u"/>
+<part name="C20" library="cap-pan40" deviceset="C-BP" device="-SMD-SV-B" value="1u"/>
 <part name="IC14" library="linear-jlb" deviceset="TL974" device=""/>
 <part name="IC15" library="linear-jlb" deviceset="TL974" device=""/>
 </parts>
