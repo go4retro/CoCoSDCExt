@@ -46,34 +46,43 @@ parameter FAM_RI =         4'h2;  // RETRO Innovations
 parameter ID_CME =         4'h3;  // CocoMemExpander
 parameter VER_CME =        4'h1;  // first version
 
-wire flag_program;
-wire flag_ram_8b;
-wire flag_ram_cf;
 wire ce_mem;
-wire flag_ram;
+wire [1:0]mem_type;
 wire we_reg_bank;
 wire ce_ymf;
 reg [7:0]data_out;
 reg [7:0]bdata_out;
 wire [18:14]bank;
+wire rom_enable;
+wire flag_memset;
 
+// mem_type:
+// 00 = off
+// 01 = ROM
+// 10 = R/O RAM
+// 11 = R/W RAM
+
+assign rom_enable =        !_rom_enable & !flag_memset | (mem_type == 2'b10);
 assign _we =               r_w;
 assign data =              data_out;
 assign bdata =             bdata_out;
-assign _cts_out =          !(_rom_enable & !_cts);
-assign ce_ymf =            (!_scs & address[5:2] == 4'b0100);       // $ff50-53
+
+// cts out should be active if we aren't using internal memory OR external rom is enabled and no one has selected memory
+assign _cts_out =          !(!_cts & (((mem_type == 0) & flag_memset) | (_rom_enable & !flag_memset)));
+assign ce_ymf =            (!_scs & address[5:2] == 4'b0100);     // $ff50-53
 assign _ce_ymf =           !ce_ymf;
-assign ce_mem =            !_cts | (flag_program & clock & !r_w & (address[15:13] == 3'b110)); // $c000-$dfff
-assign _ce_flash =         !(!flag_ram & ce_mem);
-assign _ce_sram =          !(flag_ram & ce_mem);
+// select memory if cts lo or we're in program mode and write and address in range
+assign ce_mem =            !_cts | (mem_type[0] & clock & !r_w & (address[15:13] == 3'b110)); // $c000-$dfff
+assign _ce_flash =         !(rom_enable & ce_mem);
+assign _ce_sram =          !(mem_type[1] & ce_mem);
 assign we_reg_bank =       (!_scs & (address[5:0] == 6'b011111));    // $ff5f
 assign we_reg_flags =      (!_scs & (address[5:0] == 6'b011110));    // $ff5e
-assign _reset_audio =      !(_ce_ymf & r_w & (address[1:0] == 2));   // read of $ff52;
+assign _reset_audio =      !(ce_ymf & r_w & (address[1:0] == 2));   // read of $ff52;
 assign baddress =          bank + address[14];
 
 register #(.WIDTH(5))		reg_bank(clock, !_reset, we_reg_bank, data[4:0], bank);
-register #(.WIDTH(1))		reg_program(clock, !_reset, we_reg_flags, data[0], flag_program);
-register #(.WIDTH(1))		reg_memtype(clock, !_reset, we_reg_flags, data[1], flag_ram);
+register #(.WIDTH(1))		reg_memset(clock, !_reset, we_reg_flags, 1, flag_memset);
+register #(.WIDTH(2))		reg_memtype(clock, !_reset, we_reg_flags, data[1:0], mem_type);
 
 always @(*)
 begin

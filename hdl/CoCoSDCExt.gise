@@ -21,8 +21,114 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="CoCoSDCExt.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CoCoSDCExt.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CoCoSDCExt.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="CoCoSDCExt.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="CoCoSDCExt.jed"/>
+    <file xil_pn:fileType="FILE_LFP" xil_pn:name="CoCoSDCExt.lfp"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CoCoSDCExt.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="CoCoSDCExt.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="CoCoSDCExt.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CoCoSDCExt.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="CoCoSDCExt.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CoCoSDCExt.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="CoCoSDCExt.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="CoCoSDCExt.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CoCoSDCExt.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CoCoSDCExt.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CoCoSDCExt.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CoCoSDCExt.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CoCoSDCExt.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CoCoSDCExt.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="CoCoSDCExt.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CoCoSDCExt.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CoCoSDCExt.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CoCoSDCExt_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="CoCoSDCExt_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CoCoSDCExt_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="CoCoSDCExt_pad.csv"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CoCoSDCExt_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1549214512" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1549214512">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1549214512" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4724499079390850582" xil_pn:start_ts="1549214512">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1549267153" xil_pn:in_ck="-2524222111109722884" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="-8930586199873644075" xil_pn:start_ts="1549267147">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CoCoSDCExt.lso"/>
+      <outfile xil_pn:name="CoCoSDCExt.ngc"/>
+      <outfile xil_pn:name="CoCoSDCExt.ngr"/>
+      <outfile xil_pn:name="CoCoSDCExt.prj"/>
+      <outfile xil_pn:name="CoCoSDCExt.stx"/>
+      <outfile xil_pn:name="CoCoSDCExt.syr"/>
+      <outfile xil_pn:name="CoCoSDCExt.xst"/>
+      <outfile xil_pn:name="CoCoSDCExt_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1549214900" xil_pn:in_ck="2583475383983260347" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8765714195692776689" xil_pn:start_ts="1549214900">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1549267158" xil_pn:in_ck="4857180765570814192" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="-2081320714713457669" xil_pn:start_ts="1549267153">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CoCoSDCExt.bld"/>
+      <outfile xil_pn:name="CoCoSDCExt.ngd"/>
+      <outfile xil_pn:name="CoCoSDCExt_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1549267168" xil_pn:in_ck="2583475383983252854" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-1457074022292510443" xil_pn:start_ts="1549267158">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CoCoSDCExt.gyd"/>
+      <outfile xil_pn:name="CoCoSDCExt.mfd"/>
+      <outfile xil_pn:name="CoCoSDCExt.nga"/>
+      <outfile xil_pn:name="CoCoSDCExt.pad"/>
+      <outfile xil_pn:name="CoCoSDCExt.pnx"/>
+      <outfile xil_pn:name="CoCoSDCExt.rpt"/>
+      <outfile xil_pn:name="CoCoSDCExt.tim"/>
+      <outfile xil_pn:name="CoCoSDCExt.tspec"/>
+      <outfile xil_pn:name="CoCoSDCExt.vm6"/>
+      <outfile xil_pn:name="CoCoSDCExt.xml"/>
+      <outfile xil_pn:name="CoCoSDCExt_build.xml"/>
+      <outfile xil_pn:name="CoCoSDCExt_html"/>
+      <outfile xil_pn:name="CoCoSDCExt_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1549267170" xil_pn:in_ck="2583475383983261718" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1549267168">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CoCoSDCExt.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1549679680" xil_pn:in_ck="2583475383983248432" xil_pn:name="TRAN_impactProgrammingTool_CPLD" xil_pn:prop_ck="-8487078306172248444" xil_pn:start_ts="1549679680">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1549214540" xil_pn:in_ck="2583475383983261718" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1549214538">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
 
 </generated_project>
